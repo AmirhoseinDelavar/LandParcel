@@ -1,0 +1,8 @@
+1. First make sure python3.10.4 or higher is installed
+2. (optional) Create python3 vitual enviroment with: 'python -m venv venv'
+3. (optional) activate virtual env with(on powershell): 'venv\Scripts\activate'
+4. use 'pip install -r requirements.txt' to install packages
+5. use 'python main.py' to run all three stages (axis finding, partitioning, location finding)
+6. use 'python axis_finder.py' to run axis finder only
+7. use 'python partitioning.py' to run partitioning only (only after axis finder export)
+8. use 'python location_finder.py' to run location finder only (only after partitioning export)
